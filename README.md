@@ -1,5 +1,6 @@
 # rust_with_azure
 MS Azure LOVE [not] Rust
+
 Azure + Rust: High-Performance Procurement Automation
 This project explores the synergy between Microsoft Azure and Rust — building robust, high-throughput services that interface with MSSQL databases and execute complex business logic for automated procurement workflows.
 
