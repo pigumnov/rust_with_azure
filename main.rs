@@ -114,13 +114,12 @@ async fn run_now(State(state): State<AppState>) -> impl IntoResponse {
 #[derive(Deserialize)]
 pub struct GetCustomersQuery {
     #[serde(alias = "owner_uuid")]
-    pub owner_id: String,  // или String, если нужно валидировать
+    pub owner_id: String,  
     pub page:i32,
     pub per_page:i32,
     pub sort_field: String,
     pub sort_asc: String,
     pub search: String,
-    // другие параметры
     //GetData(int page, int perPage, string sortField, bool sortAsc, string search)
 }
 
